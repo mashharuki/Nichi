@@ -18,15 +18,31 @@
 
 ## Archtechture
 
+## functions
+
 ## Tech Stack
 
 ### Frontend
+
+- **TypeScript**
+- **Tailwind CSS**
+- **shadcn/ui**
+- **Next.js**
+- **Privy**
+- **Vercel**
 
 ### Backend
 
 ### Blockchain
 
+- **BaseSepolia**
+- **CoinSDK**
+
 ### AI
+
+- **Stable Diffusion**
+- **OpenAI**
+- **Claude**
 
 ## Reference
 
