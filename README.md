@@ -6,7 +6,7 @@
 
 ## Pitch Slide
 
-[Canva - ]()
+[Canva - Pitch Slide](https://www.canva.com/design/DAGkI2goC6c/8OqYgBHUSSNaWSdrU_9_8Q/view?utm_content=DAGkI2goC6c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf1a0395bec)
 
 ## Product Page
 
