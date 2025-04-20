@@ -1,6 +1,4 @@
-# ZoraHackathon
-
-## Product Name
+# Nichi
 
 ## Live Demo
 
@@ -53,6 +51,40 @@
 - **Stable Diffusion**
 - **OpenAI**
 - **Claude**
+
+## How to work
+
+### SetUp
+
+install
+
+```bash
+pnpm install
+```
+
+### Agent API
+
+start on localhost
+
+```bash
+pnpm api run dev
+```
+
+### CDK for Terraform
+
+### Frontend
+
+build
+
+```bash
+pnpm frontend run build
+```
+
+start on localhost
+
+```bash
+pnpm frontend run dev
+```
 
 ## Reference
 

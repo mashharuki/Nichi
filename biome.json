@@ -18,7 +18,8 @@
       "**/target",
       "**/public",
       "**/docs",
-      "**/.next"
+      "**/.next",
+      "**/eslint.config.mjs"
     ]
   },
   "formatter": {
