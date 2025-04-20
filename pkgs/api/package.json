@@ -5,8 +5,9 @@
   "description": "",
   "scripts": {
     "dev": "npx tsx watch src/index.ts",
-    "build": "docker build . -t",
-    "run": "docker run --env-file .env -p 3000:3000"
+    "build": "docker build .",
+    "start": "docker run --env-file .env -p 3000:3000",
+    "push": "docker push ghcr.io/coinbase/coinbase-cdp:latest"
   },
   "dependencies": {
     "@coinbase/agentkit": "^0.1.1",
@@ -16,6 +17,7 @@
     "@hono/node-server": "^1.13.7",
     "@langchain/community": "^0.3.21",
     "@langchain/core": "^0.3.27",
+    "@langchain/google-genai": "^0.2.4",
     "@langchain/langgraph": "^0.2.42",
     "@langchain/openai": "^0.3.16",
     "axios": "^1.7.9",

@@ -56,7 +56,7 @@
 
 ### SetUp
 
-install
+#### install
 
 ```bash
 pnpm install
@@ -64,23 +64,43 @@ pnpm install
 
 ### Agent API
 
-start on localhost
+#### start on localhost
 
 ```bash
 pnpm api run dev
+```
+
+#### build Dokcer Container image
+
+```bash
+pnpm api run build -t agent-api
+```
+
+#### start Dokcer Container
+
+```bash
+pnpm api run start agent-api:latest
+```
+
+#### push Docker Container image to Google Cloud
+
+before run this command, you must create containe image repo on Goolge Cloud
+
+```bash
+
 ```
 
 ### CDK for Terraform
 
 ### Frontend
 
-build
+#### build
 
 ```bash
 pnpm frontend run build
 ```
 
-start on localhost
+#### start on localhost
 
 ```bash
 pnpm frontend run dev
