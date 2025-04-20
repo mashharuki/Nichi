@@ -7,7 +7,8 @@
     "dev": "npx tsx watch src/index.ts",
     "build": "docker build .",
     "start": "docker run --env-file .env -p 3000:3000",
-    "push": "docker push ghcr.io/coinbase/coinbase-cdp:latest"
+    "build4cloud": "sh ./scripts/build4cloud.sh",
+    "push2cloud": "sh ./scripts/push2cloud.sh"
   },
   "dependencies": {
     "@coinbase/agentkit": "^0.1.1",

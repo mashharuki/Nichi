@@ -87,10 +87,26 @@ pnpm api run start agent-api:latest
 before run this command, you must create containe image repo on Goolge Cloud
 
 ```bash
+pnpm api run build4cloud
+```
 
+```bash
+pnpm api run push2cloud
 ```
 
 ### CDK for Terraform
+
+#### deploy Agent API Stack
+
+```bash
+pnpm cdktf run deploy 'agent-api'
+```
+
+#### destroy Agent API Stack
+
+```bash
+pnpm cdktf run destroy 'agent-api'
+```
 
 ### Frontend
 

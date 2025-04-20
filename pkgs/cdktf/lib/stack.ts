@@ -16,13 +16,6 @@ const {
   CDP_API_KEY_NAME,
   CDP_API_KEY_PRIVATE_KEY,
   NETWORK_ID,
-  PRIVATE_KEY,
-  ALCHEMY_API_KEY,
-  Groq_API_Key,
-  COINGECKO_API_KEY,
-  PRIVY_APP_ID,
-  PRIVY_APP_SECRET_KEY,
-  ANTHROPIC_KEY_API,
 } = process.env;
 
 export interface MyStackConfig {
@@ -55,7 +48,7 @@ export class MyStack extends TerraformStack {
       this,
       "AgentAPIAccount",
       {
-        accountId: "agentAPIAccount", // Service account　name
+        accountId: "honoSampleAccount",
         project: config.projectId,
       },
     );
@@ -118,34 +111,6 @@ export class MyStack extends TerraformStack {
                 {
                   name: "NETWORK_ID",
                   value: NETWORK_ID,
-                },
-                {
-                  name: "PRIVATE_KEY",
-                  value: PRIVATE_KEY,
-                },
-                {
-                  name: "ALCHEMY_API_KEY",
-                  value: ALCHEMY_API_KEY,
-                },
-                {
-                  name: "Groq_API_Key",
-                  value: Groq_API_Key,
-                },
-                {
-                  name: "COINGECKO_API_KEY",
-                  value: COINGECKO_API_KEY,
-                },
-                {
-                  name: "PRIVY_APP_ID",
-                  value: PRIVY_APP_ID,
-                },
-                {
-                  name: "PRIVY_APP_SECRET_KEY",
-                  value: PRIVY_APP_SECRET_KEY,
-                },
-                {
-                  name: "ANTHROPIC_KEY_API",
-                  value: ANTHROPIC_KEY_API,
                 },
               ],
             },

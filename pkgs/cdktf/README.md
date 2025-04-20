@@ -17,7 +17,7 @@
 - deploy to Cloud Run
 
   ```bash
-  bun run deploy 'hono-vertexai-sample-api'
+  bun run deploy 'agent-api'
   ```
 
   result:
@@ -32,5 +32,5 @@
 - Delete
 
   ```bash
-  bun run destroy 'hono-vertexai-sample-api'
+  bun run destroy 'agent-api'
   ```
