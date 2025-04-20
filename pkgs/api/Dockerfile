@@ -18,7 +18,7 @@ RUN pnpm install --prod
 
 # Specify the user who will run the application
 USER node
-EXPOSE 3000
+EXPOSE 3000/tcp
 
 # Start the server
-CMD ["pnpm", "run", "start"]
+CMD ["pnpm", "run", "dev", "&"]

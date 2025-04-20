@@ -25,7 +25,7 @@
   ```bash
   cdktf
   region = us-central1
-  service_name = hono-vertexai-sample
+  service_name = agent-api
   service_url = https://<固有値>.a.run.app
   ```
 
