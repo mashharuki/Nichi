@@ -18,7 +18,15 @@
 
 ## Archtechture
 
+![](./docs/overview.drawio.png)
+
 ## functions
+
+- **A feature to mint tokens using CoinSDK**
+- **A feature to generate metadata with AI**
+- **A feature to create token images**
+- **A feature to automatically post to social media**
+- **A feature to automatically generate stories**
 
 ## Tech Stack
 
@@ -32,6 +40,8 @@
 - **Vercel**
 
 ### Backend
+
+- **Cloud Run**
 
 ### Blockchain
 
