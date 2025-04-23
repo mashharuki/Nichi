@@ -6,7 +6,10 @@
   "main": "index.js",
   "scripts": {
     "biome:format": "npx biome format --write .",
-    "biome:check": "npx biome check --write --unsafe ."
+    "biome:check": "npx biome check --write --unsafe .",
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
   },
   "keywords": [],
   "author": "",
