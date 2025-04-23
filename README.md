@@ -56,70 +56,29 @@
 
 ### SetUp
 
+#### create .env
+
+```txt
+OPENAI_API_KEY=
+```
+
 #### install
 
 ```bash
 pnpm install
 ```
-
-### Agent API
-
-#### start on localhost
-
-```bash
-pnpm api run dev
-```
-
-#### build Dokcer Container image
-
-```bash
-pnpm api run build -t agent-api
-```
-
-#### start Dokcer Container
-
-```bash
-pnpm api run start agent-api:latest
-```
-
-#### push Docker Container image to Google Cloud
-
-before run this command, you must create containe image repo on Goolge Cloud
-
-```bash
-pnpm api run build4cloud
-```
-
-```bash
-pnpm api run push2cloud
-```
-
-### CDK for Terraform
-
-#### deploy Agent API Stack
-
-```bash
-pnpm cdktf run deploy 'agent-api'
-```
-
-#### destroy Agent API Stack
-
-```bash
-pnpm cdktf run destroy 'agent-api'
-```
-
 ### Frontend
 
 #### build
 
 ```bash
-pnpm frontend run build
+pnpm run build
 ```
 
 #### start on localhost
 
 ```bash
-pnpm frontend run dev
+pnpm run dev
 ```
 
 ## Reference

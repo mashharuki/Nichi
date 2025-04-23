@@ -6,15 +6,37 @@
   "main": "index.js",
   "scripts": {
     "biome:format": "npx biome format --write .",
-    "biome:check": "npx biome check --write --unsafe .",
-    "api": "pnpm -F \"api\"",
-    "cdktf": "pnpm -F \"cdktf\"",
-    "frontend": "pnpm -F \"frontend\""
+    "biome:check": "npx biome check --write --unsafe ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "@ai-sdk/openai": "^1.3.16",
+    "@mastra/core": "^0.8.3",
+    "@radix-ui/react-slot": "^1.2.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.503.0",
+    "next": "15.3.1",
+    "next-pwa": "^5.6.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.2.0"
+  },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.1",
+    "pwa-asset-generator": "^8.0.4",
+    "tailwindcss": "^4",
+    "tw-animate-css": "^1.2.8",
+    "typescript": "^5",
+    "zod": "^3.24.3",
     "@biomejs/biome": "^1.9.4",
     "lefthook": "^1.10.1"
   }

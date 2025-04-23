@@ -35,4 +35,4 @@ jobs:
         run: pnpm run biome:check
 
       - name: Build frontend
-        run: pnpm frontend build
+        run: pnpm build
