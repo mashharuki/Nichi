@@ -1,5 +1,7 @@
 # Nichi
 
+![](./docs/title.jpg)
+
 ## Live Demo
 
 [Vercel - ]()
@@ -80,6 +82,14 @@ pnpm run build
 ```bash
 pnpm run dev
 ```
+
+## Update Point
+
+### Wave3
+
+### Wave4
+
+### Wave5
 
 ## Reference
 
