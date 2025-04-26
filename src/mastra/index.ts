@@ -1,8 +1,7 @@
+import { createLogger } from "@mastra/core/logger";
+import { Mastra } from "@mastra/core/mastra";
 
-import { createLogger } from '@mastra/core/logger';
-import { Mastra } from '@mastra/core/mastra';
-
-import { weatherAgent } from './agents';
+import { weatherAgent } from "./agents";
 
 /**
  * Mastra用のインスタンスを作成
@@ -10,7 +9,7 @@ import { weatherAgent } from './agents';
 export const mastra = new Mastra({
   agents: { weatherAgent },
   logger: createLogger({
-    name: 'Mastra',
-    level: 'info',
+    name: "Mastra",
+    level: "info",
   }),
 });

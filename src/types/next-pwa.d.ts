@@ -1,6 +1,6 @@
-declare module 'next-pwa' {
-  import { NextConfig } from 'next';
-  
+declare module "next-pwa" {
+  import type { NextConfig } from "next";
+
   interface RuntimeCaching {
     urlPattern: RegExp | string;
     handler: string;
@@ -16,7 +16,7 @@ declare module 'next-pwa' {
       };
     };
   }
-  
+
   interface PWAConfig {
     dest?: string;
     disable?: boolean;
@@ -37,5 +37,7 @@ declare module 'next-pwa' {
     customWorkerDir?: string;
   }
 
-  export default function withPWA(config?: PWAConfig): (nextConfig: NextConfig) => NextConfig;
+  export default function withPWA(
+    config?: PWAConfig,
+  ): (nextConfig: NextConfig) => NextConfig;
 }

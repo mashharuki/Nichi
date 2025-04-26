@@ -1,13 +1,12 @@
-
-import { Agent } from '@mastra/core/agent';
-import { openAIGpt4o } from '../models';
-import { weatherTool } from '../tools';
+import { Agent } from "@mastra/core/agent";
+import { openAIGpt4o } from "../models";
+import { weatherTool } from "../tools";
 
 /**
  * Weather Agent
  */
 export const weatherAgent = new Agent({
-  name: 'Weather Agent',
+  name: "Weather Agent",
   instructions: `
       You are a helpful weather assistant that provides accurate weather information.
 
